@@ -2,7 +2,7 @@
 
 脚本功能：XMind思维导图+解锁订阅
 https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xmind.js
-
+v22.11正常
 
 *******************************
 
