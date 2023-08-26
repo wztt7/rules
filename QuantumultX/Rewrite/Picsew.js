@@ -1,6 +1,6 @@
 /*
 
-Picsew：https://apps.apple.com/app/id1208145167        https://raw.githubusercontent.com/Guding88/Script/main/Picsew.js
+Picsew：https://apps.apple.com/app/id1208145167        https://raw.githubusercontent.com/Guding88/Script/main/Picsew.js   v22.11
 
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Picsew.js
