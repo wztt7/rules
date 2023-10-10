@@ -7,52 +7,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"Google-75","server":"","port":,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":""}
   - {"type":"ssr","name":"BGP8号线","server":"","port":,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":""}
+  - {"type":"ssr","name":"BGP9号线","server":"","port":,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":""}
+  - {"type":"ssr","name":"CN2","server":"","port":,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - Google-75
       - BGP8号线
+      - BGP9号线
+      - CN2
   - name: Instagram
     type: select
     proxies:
-      - ♻️ 自动选择
-      - Google-75
+      - 🚀 节点选择
       - BGP8号线
+      - BGP9号线
+      - CN2
   - name: Youtube
     type: select
     proxies:
-      - ♻️ 自动选择
-      - Google-75
+      - 🚀 节点选择
       - BGP8号线
+      - BGP9号线
+      - CN2
   - name: Spotify
     type: select
     proxies:
-      - ♻️ 自动选择
-      - Google-75
+      - 🚀 节点选择
       - BGP8号线
+      - BGP9号线
+      - CN2
   - name: 🌍 国外媒体
     type: select
     proxies:
-      - ♻️ 自动选择
-      - Google-75
+      - 🚀 节点选择
       - BGP8号线
+      - BGP9号线
+      - CN2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
-      - Google-75
       - BGP8号线
+      - BGP9号线
+      - CN2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Google-75
       - BGP8号线
+      - BGP9号线
+      - CN2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,16 +81,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Google-75
       - BGP8号线
+      - BGP9号线
+      - CN2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Google-75
       - BGP8号线
+      - BGP9号线
+      - CN2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
