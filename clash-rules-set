@@ -111,6 +111,7 @@ proxy-groups:
     type: select
     proxies:
       - PROXY
+      - DIRECT
       - BGP8号线
       - BGP9号线
       - CN2
