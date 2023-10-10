@@ -138,6 +138,34 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/Tik
 ```
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/DouYin.list
 ```
+
+## Clash
+Clash 配置文件中添加多个机场订阅
+```
+proxy-providers:
+  机场名称:
+    type: http
+    url: "机场订阅链接"
+    interval: 86400
+    path: ./myproxy/jichang.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+```
+添加订阅到proxy-groups:
+```
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 自建节点
+    use:
+      - 机场名称
+```
+
 # 特别感谢
 以下排名不分先后
 [@BaileyZyp](https://github.com/BaileyZyp) [@Mazeorz](https://github.com/Mazeorz) [@LuzMasonj](https://github.com/LuzMasonj) [@chouchoui](https://github.com/chouchoui)  [@ypannnn](https://github.com/ypannnn)  [@echizenryoma](https://github.com/echizenryoma)  [@zirawell](https://github.com/zirawell)  [@urzz](https://github.com/urzz)  [@ASD-max](https://github.com/ASD-max) [*@ddgksf2013*](https://t.me/ddgksf2013_bot)
