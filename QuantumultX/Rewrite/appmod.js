@@ -1,5 +1,5 @@
-/*************************************
 
+Spotify
 开资源解析器
 美图
 扫描全能王 
@@ -10,8 +10,17 @@ picsew
 迅雷
 
 
+########################################
+#应用名称：  Spotify
+hostname = spclient.wg.spotify.com
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
+########################################
 
 
+
+
+/*************************************
 项目名称：美图秀秀 
 [rewrite_local]
 ^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js
