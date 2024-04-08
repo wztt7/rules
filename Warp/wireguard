@@ -1,8 +1,0 @@
-
-# WARP+密钥 https://replit.com/@ygkkkk/WarpKey-Register-PRO    https://t.me/generatewarpplusbot
-# https://www.wireguard.com/install/
-# 一键无限生成WARP-Wireguard配置 https://replit.com/@ygkkkk/WARP-Wireguard-Register
-
-
-# 优选warp-wireguard对端ip
-# curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && ./endip.sh
