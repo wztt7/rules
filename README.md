@@ -12,5 +12,7 @@
 
 | 功能 | QuantumultX |
 | :-----| :---- |
-|墨鱼去开屏广告|  [QX.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/QX.conf) |
-|Shadowrocket|  [StartUp.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf) |
+|墨鱼去开屏广告|  [StartUp.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf) |
+|应用|  [Appgeneral.js](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/Appgeneral.js) |
+|YouTube去广告|  [YoutubeAds.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.conf) |
+
