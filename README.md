@@ -44,7 +44,13 @@
 * 薯条翻译小火箭：[DualSubsSpotify](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Module/DualSubsSpotify.module) 
 
 
+## SUB订阅器
 
+| 作者 | Worker部署格式 |
+| :-----| :---- |
+|天城YDLiang | https://cm.godns.onflashdrive.app/sub?host=你的Worker域名&uuid=你的UUID|
+|3Kmfi6HP| https://3k.fxxk.dedyn.io/sub?host=你的Worker域名&uuid=你的UUID|
+|OTC| sub.kaiche.tk|
 
 
 
