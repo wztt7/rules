@@ -22,8 +22,8 @@
 ## BoxJs安装链接
 
 | 软件 | 一键安装 | 链接 |
-| :-----| :---- |
-|QuantumultX|  [boxjs](https://api.boxjs.app/quanx-install "🧰 BoxJs") |  [boxjs](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf "🧰 BoxJs") |
-|Shadowrocket| [boxjs](http://api.boxjs.app/shadowrocket-install "🧰 BoxJs") | [boxjs](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule "🧰 BoxJs") |
+| :-----| :---- |:---- |
+|QuantumultX|  [boxjs](https://api.boxjs.app/quanx-install "🧰 BoxJs") |  [boxjs.rewrite.quanx.conf](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf "🧰 BoxJs") |
+|Shadowrocket| [boxjs](http://api.boxjs.app/shadowrocket-install "🧰 BoxJs") | [boxjs.rewrite.surge.sgmodule](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule "🧰 BoxJs") |
 
 
