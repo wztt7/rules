@@ -26,4 +26,8 @@
 |QuantumultX|  [boxjs](https://api.boxjs.app/quanx-install) |  [boxjs.rewrite.quanx.conf](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf) |
 |Shadowrocket| [boxjs](http://api.boxjs.app/shadowrocket-install) | [boxjs.rewrite.surge.sgmodule](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule) |
 
-
+* 浏览器访问官网：[BoxJs.com](http://boxjs.com)
+  
+| 作者 | 一键安装 | 复制链接到浏览器添加订阅 |
+| :-----| :---- |:---- |
+|🍿️ DualSubs Legacy|  [🍿️ DualSubs](http://boxjs.com/#/sub/add/https%3A%2F%2Fgithub.com%2FDualSubs%2FBoxJs%2Fraw%2Fmain%2FDualSubs.BoxJs.json) | [DualSubs.BoxJs.json](https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json) |
