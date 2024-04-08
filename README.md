@@ -18,3 +18,12 @@
 |🍿DualSubs翻译|  [DualSubs.sgmodule](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/DualSubs.sgmodule) |
 |番茄小说去广告|  [fanqienovel.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/fanqienovel.conf) |
 
+
+## BoxJs安装链接
+
+| 软件 | 一键安装 | 链接 |
+| :-----| :---- |
+|QuantumultX|  [boxjs](https://api.boxjs.app/quanx-install "🧰 BoxJs") |  [boxjs](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf "🧰 BoxJs") |
+|Shadowrocket| [boxjs](http://api.boxjs.app/shadowrocket-install "🧰 BoxJs") | [boxjs](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule "🧰 BoxJs") |
+
+
