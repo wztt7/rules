@@ -30,4 +30,30 @@
   
 | 作者 | 一键安装 | 复制链接到浏览器添加订阅 |
 | :-----| :---- |:---- |
-|🍿️ DualSubs Legacy|  [🍿️ DualSubs](http://boxjs.com/#/sub/add/https%3A%2F%2Fgithub.com%2FDualSubs%2FBoxJs%2Fraw%2Fmain%2FDualSubs.BoxJs.json) | [DualSubs.BoxJs.json](https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json) |
+|🍿️ DualSubs |  [🍿️ DualSubs](http://boxjs.com/#/sub/add/https%3A%2F%2Fgithub.com%2FDualSubs%2FBoxJs%2Fraw%2Fmain%2FDualSubs.BoxJs.json) | [DualSubs.BoxJs.json](https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json) |
+
+
+## Spotify
+
+| 软件 | 链接 |
+| :-----| :---- |
+|QuantumultX|  [Spotify.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/Spotify.conf) |
+|Shadowrocket|  [Spotify.module](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Module/Spotify.module) |
+* 翻译：[spotify-lyric.js](https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js)
+* 薯条翻译圈x：[DualSubsSpotify](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/DualSubsSpotify.snippet) 
+* 薯条翻译小火箭：[DualSubsSpotify](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Module/DualSubsSpotify.module) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
