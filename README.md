@@ -56,9 +56,19 @@
 
 
 
-
-
-
+## 鸣谢
+> 排名不分先后
+[@app2smile](https://github.com/app2smile)
+[@ddgksf2013](https://github.com/ddgksf2013)
+[@DualSubs](https://github.com/DualSubs)
+[@chxm1023](https://github.com/chxm1023/Rewrite)
+[@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
+[@NobyDa](https://github.com/NobyDa)
+[@yichahucha](https://github.com/yichahucha)
+[@Peng-YM](https://github.com/Peng-YM)
+[@chavyleung](https://github.com/chavyleung)
+[@Koolson](https://github.com/Koolson)
+[@Shawn](https://github.com/KOP-XIAO)
 
 
 
