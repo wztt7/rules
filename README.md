@@ -17,6 +17,7 @@
 |YouTube去广告|  [YoutubeAds.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.conf) |
 |🍿DualSubs翻译|  [DualSubs.sgmodule](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/DualSubs.sgmodule) |
 |番茄小说去广告|  [fanqienovel.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/fanqienovel.conf) |
+|叮当猫合集|  [Reheji.js](https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js) |
 
 
 ## BoxJs安装链接
