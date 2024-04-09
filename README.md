@@ -67,8 +67,8 @@
 [@yichahucha](https://github.com/yichahucha)
 [@Peng-YM](https://github.com/Peng-YM)
 [@chavyleung](https://github.com/chavyleung)
-[@Koolson](https://github.com/Koolson)
-[@Shawn](https://github.com/KOP-XIAO)
+[@cmliu](https://github.com/cmliu)
+[@KOP-XIAO](https://github.com/KOP-XIAO)
 
 
 
