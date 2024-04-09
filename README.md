@@ -50,6 +50,7 @@
 | 作者 | Worker部署格式 |
 | :-----| :---- |
 |天城YDLiang | https://cm.godns.onflashdrive.app/sub?host=你的Worker域名&uuid=你的UUID|
+|wzcm | https://sub.kejiwang.onflashdrive.app/sub?host=你的Worker域名&uuid=你的UUID|
 |3Kmfi6HP| https://3k.fxxk.dedyn.io/sub?host=你的Worker域名&uuid=你的UUID|
 |OTC| sub.kaiche.tk|
 
