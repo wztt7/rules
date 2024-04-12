@@ -1,3 +1,8 @@
+[filter_local]
+# Tidal
+DOMAIN-KEYWORD, yuheng, DIRECT
+DOMAIN-KEYWORD, yqc-premium, DIRECT
+
 [rewrite_local]
 
 ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
