@@ -4,6 +4,7 @@
 | 软件 | 链接 |
 | :-----| :---- |
 |QuantumultX|  [QX.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/QX.conf) |
+|懒人配置|  [QuantumultX_Profiles.conf](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf) |
 |Shadowrocket|  [Shadowrocket.conf](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Shadowrocket.conf) |
 
 
