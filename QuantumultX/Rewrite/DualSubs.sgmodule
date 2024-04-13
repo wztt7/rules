@@ -39,7 +39,7 @@
 
 
 #[mitm]
-hostname = api.spotify.com, spclient.wg.spotify.com
+hostname = api.spotify.com, spclient.wg.spotify.com, www.youtube.com, m.youtube.com, tv.youtube.com, music.youtube.com, youtubei.googleapis.com, redirector.googlevideo.com
 
 
 
