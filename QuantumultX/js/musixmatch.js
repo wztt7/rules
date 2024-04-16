@@ -10,7 +10,7 @@ obj.message.body.app_config.active_products=[
             "start_date" : "2024-03-27T16:27:38.000Z",
             "creation_date" : "2024-03-27T16:27:38.000Z",
             "credits" : 10,
-            "end_date" : "2099-11-03T17:27:38.000Z",
+            "end_date" : "2099-03-27T17:27:38.000Z",
             "product_type" : "subscription",
             "features" : {
               "no_ads" : 1,
