@@ -3,7 +3,7 @@
 
 | 软件 | 链接 |
 | :-----| :---- |
-|QuantumultX|  [QX.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/QX.conf) |
+|QuantumultX|  [self.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/self.conf) |
 |懒人配置|  [QuantumultX_Profiles.conf](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf) |
 |Shadowrocket|  [Shadowrocket.conf](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Shadowrocket.conf) |
 
@@ -14,11 +14,10 @@
 | 功能 | QuantumultX |
 | :-----| :---- |
 |墨鱼去开屏广告|  [StartUp.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf) |
-|应用|  [Appgeneral.js](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/Appgeneral.js) |
 |YouTube去广告|  [YoutubeAds.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.conf) |
 |🍿DualSubs翻译|  [DualSubs.sgmodule](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/DualSubs.sgmodule) |
 |番茄小说去广告|  [fanqienovel.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/fanqienovel.conf) |
-|书旗小说去|  [sqxs.js](https://raw.githubusercontent.com/Yu9191/Rewrite/main/sqxs.js) |
+|书旗小说去广告|  [sqxs.js](https://raw.githubusercontent.com/Yu9191/Rewrite/main/sqxs.js) |
 |叮当猫合集|  [Reheji.js](https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js) |
 
 
