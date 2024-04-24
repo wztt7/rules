@@ -8,7 +8,7 @@
 |Shadowrocket|  [Shadowrocket.conf](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Shadowrocket.conf) |
 
 
-## 重写模块
+## 圈x重写模块
 * 圈x重写转小火箭模块： [QX_to_Shadowrocket.module](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Module/QX_to_Shadowrocket.module)
 
 | 功能 | QuantumultX |
@@ -19,6 +19,8 @@
 |番茄小说去广告|  [fanqienovel.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/fanqienovel.conf) |
 |书旗小说去广告|  [sqxs.js](https://raw.githubusercontent.com/Yu9191/Rewrite/main/sqxs.js) |
 |叮当猫合集|  [Reheji.js](https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js) |
+
+
 
 
 ## BoxJs安装链接
