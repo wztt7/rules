@@ -15,6 +15,7 @@
 |墨鱼去开屏广告|  [StartUp.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf) |
 |YouTube去广告|  [YoutubeAds.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.conf) |
 |小红书去广告|  [XiaoHongShu.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/XiaoHongShu.conf) |
+|微博去广告|  [Weibo.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf) |
 |🍿DualSubs翻译|  [DualSubs.sgmodule](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/DualSubs.sgmodule) |
 |番茄小说去广告|  [fanqienovel.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/fanqienovel.conf) |
 |书旗小说去广告|  [sqxs.js](https://raw.githubusercontent.com/Yu9191/Rewrite/main/sqxs.js) |
