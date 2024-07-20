@@ -55,9 +55,11 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 ^http:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v1\? url reject-dict
 ^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v2\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
 
+# https://github.com/WeiGiegie/666/blob/main/zmfy.js
+^https?:\/\/zimu.yunmiaomiao.cn\/api\/user\/index url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/zmfy.js
 
 
 
   
 [mitm]
-hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, *.wtzw.com, xluser-ssl.xunlei.com, translator.felo.me, baimiao.uzero.cn, *.mgtv.com
+hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, *.wtzw.com, xluser-ssl.xunlei.com, translator.felo.me, baimiao.uzero.cn, *.mgtv.com ,zimu.yunmiaomiao.cn
