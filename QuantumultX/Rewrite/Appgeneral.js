@@ -38,16 +38,16 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 ^https?:\/\/baimiao\.uzero\.cn\/api\/.+\/(appLaunchWithUser|getAnnouncement|checkLoginClient) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/baimiao.js
 
 # https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cnftp.snippet
-^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv1.js
-https://mobile-stream.api.mgtv.com/v1/video/source? url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
-https://nuc.api.mgtv.com/GetUserInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv.js
-https://mobile-stream.api.mgtv.com/v1/video/source url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv.js
+^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/js/MGTV/mgtv1.js
+https://mobile-stream.api.mgtv.com/v1/video/source? url script-request-header https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/js/MGTV/MGTV.js
+https://nuc.api.mgtv.com/GetUserInfo url script-response-body https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/js/MGTV/mgtv.js
+https://mobile-stream.api.mgtv.com/v1/video/source url script-response-body https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/js/MGTV/mgtv.js
 #港区
-^https://mobile.api.mgtv.com/v8/video/getSource url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
+^https://mobile.api.mgtv.com/v8/video/getSource url script-request-header https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/js/MGTV/MGTV.js
 #播放页开通提示移除
 http://vip.bz.mgtv.com/client/dynamic_entry url reject
-https://pcc.api.mgtv.com/video/getSource url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
-https://pad.api.mgtv.com/v8/video/getSource url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
+https://pcc.api.mgtv.com/video/getSource url script-request-header https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/js/MGTV/MGTV.js
+https://pad.api.mgtv.com/v8/video/getSource url script-request-header https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/js/MGTV/MGTV.js
 
 # https://github.com/WeiGiegie/666/blob/main/zmfy.js
 ^https?:\/\/zimu.yunmiaomiao.cn\/api\/user\/index url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/zmfy.js
