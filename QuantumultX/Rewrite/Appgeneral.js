@@ -41,8 +41,10 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 # https://github.com/WeiGiegie/666/blob/main/zmfy.js
 ^https?:\/\/zimu.yunmiaomiao.cn\/api\/user\/index url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/zmfy.js
 
+#小程序://题材库   https://github.com/Yu9191/Rewrite/blob/main/ticaiku.js
+https://miniapp.guniuniu.com/api/app/user$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/ticaiku.js
 
 
   
 [mitm]
-hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, *.wtzw.com, xluser-ssl.xunlei.com, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn
+hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, *.wtzw.com, xluser-ssl.xunlei.com, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com
