@@ -6,19 +6,24 @@
 |QuantumultX|  [self.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/self.conf) |
 |Shadowrocket|  [Shadowrocket.conf](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Shadowrocket.conf) |
 
+## Shadowrocket模块
+* 模块转换： [Script Hub](https://scripthub.vercel.app/)
+
+| 功能 | Shadowrocket |
+| :-----| :---- |
+|ScriptHub脚本转换|  [script-hub.rocket.module](https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.rocket.module) |
+|Spotify|  [Spotify.conf](https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.module) |
+
 
 ## 圈x重写模块
-* 圈x重写转小火箭模块： [QX_to_Shadowrocket.module](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Module/QX_to_Shadowrocket.module)
 
 | 功能 | QuantumultX |
 | :-----| :---- |
 |墨鱼去开屏广告|  [StartUp.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf) |
 |YouTube去广告|  [YoutubeAds.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.conf) |
+|Spotify|  [Spotify.conf](https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf) |
 |小红书去广告|  [XiaoHongShu.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/XiaoHongShu.conf) |
 |微博去广告|  [Weibo.conf](https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf) |
-|🍿DualSubs翻译|  [DualSubs.sgmodule](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/DualSubs.sgmodule) |
-|番茄小说去广告|  [fanqienovel.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/fanqienovel.conf) |
-|书旗小说去广告|  [sqxs.js](https://raw.githubusercontent.com/Yu9191/Rewrite/main/sqxs.js) |
 |叮当猫合集|  [Reheji.js](https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js) |
 
 
@@ -37,16 +42,6 @@
 | :-----| :---- |:---- |
 |🍿️ DualSubs |  [🍿️ DualSubs](http://boxjs.com/#/sub/add/https%3A%2F%2Fgithub.com%2FDualSubs%2FBoxJs%2Fraw%2Fmain%2FDualSubs.BoxJs.json) | [DualSubs.BoxJs.json](https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json) |
 
-
-## Spotify
-
-| 软件 | 链接 |
-| :-----| :---- |
-|QuantumultX|  [Spotify.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/Spotify.conf) |
-|Shadowrocket|  [Spotify.module](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Module/Spotify.module) |
-* 翻译：[spotify-lyric.js](https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js)
-* 薯条翻译圈x：[DualSubsSpotify](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Rewrite/DualSubsSpotify.snippet) 
-* 薯条翻译小火箭：[DualSubsSpotify](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Module/DualSubsSpotify.module) 
 
 
 
