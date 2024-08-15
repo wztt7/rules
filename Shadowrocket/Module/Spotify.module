@@ -1,6 +1,12 @@
 #!url=https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.module
 #!name=Spotify(>=iOS15)
-#!desc=音质不能设置为超高  v8.9.26
+#!desc=2024.05.27 音质不能设置为超高
+
+
+[Header Rewrite]
+# if-none-match返回304状态码
+http-request ^https:\/\/spclient\.wg\.spotify\.com\/user-customization-service\/v1\/customize$ header-del if-none-match
+
 [MITM]
 hostname = %APPEND% spclient.wg.spotify.com
 
