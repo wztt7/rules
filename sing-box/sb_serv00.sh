@@ -509,10 +509,10 @@ rm -rf boot.log config.json sb.log core tunnel.yml tunnel.json fake_useragent_0.
 menu() {
    clear
    echo ""
-   purple "=== Serv00|ct8老王sing-box一键安装脚本 ===\n"
+   purple "=== Serv00|sing-box一键安装脚本 ===\n"
    echo -e "${green}脚本地址：${re}${yellow}https://github.com/eooce/Sing-box${re}\n"
    echo -e "${green}反馈论坛：${re}${yellow}https://bbs.vps8.me${re}\n"
-   echo -e "${green}TG反馈群组：${re}${yellow}https://t.me/vps888${re}\n"
+   echo -e "${green}反馈群组：${re}${yellow}https://t.me/vps888${re}\n"
    purple "转载请著名出处，请勿滥用\n"
    green "1. 安装sing-box"
    echo  "==============="
@@ -524,7 +524,7 @@ menu() {
    echo  "==============="
    red "0. 退出脚本"
    echo "==========="
-   reading "请输入选择(0-3): " choice
+   reading "请输入选择(0-4): " choice
    echo ""
     case "${choice}" in
         1) install_singbox ;;
