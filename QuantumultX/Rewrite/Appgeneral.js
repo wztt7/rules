@@ -23,11 +23,11 @@
 ^https?:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/backup\/device url reject
 ^https?:\/\/member\.(aliyundrive|alipan)\.com\/v2\/activity\/sign_in_info url script-response-body https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js
 
-^https?:\/\/pan\.baidu\.com\/api\/getsyscfg url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js
+^https?:\/\/pan\.baidu\.com\/api\/getsyscfg url script-response-body https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Js/baiduCloud.vip.js
 ^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list url reject-200
 ^https?:\/\/pan\.baidu\.com\/rest\/.*\/pcs\/ad url reject-200
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject-200
-^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.vip.js
+^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id url script-response-body https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Js/baiduCloud.vip.js
 
 ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js
 
