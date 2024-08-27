@@ -23,11 +23,29 @@
 ^https?:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/backup\/device url reject
 ^https?:\/\/member\.(aliyundrive|alipan)\.com\/v2\/activity\/sign_in_info url script-response-body https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js
 
-^https?:\/\/pan\.baidu\.com\/api\/getsyscfg url script-response-body https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Js/baiduCloud.vip.js
+# https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js
+# > 百度网盘_开屏广告@ddgksf2013
+^https?:\/\/pan\.baidu\.com\/api\/getsyscfg url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js
+# > 百度网盘_广告推广@ddgksf2013
+^https?:\/\/afd\.baidu\.com\/afd\/entry url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js
+# > 百度网盘_启动弹窗@ddgksf2013
+^https?:\/\/afd\.baidu\.com\/rest\/.*\/membership\/proxy\/guide url reject-200
+# > 百度网盘_设置信息流@ddgksf2013
 ^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list url reject-200
+# > 百度网盘_通用广告@ddgksf2013
 ^https?:\/\/pan\.baidu\.com\/rest\/.*\/pcs\/ad url reject-200
+# > 百度网盘_活动推广@ddgksf2013
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject-200
-^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?app_id url script-response-body https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/Js/baiduCloud.vip.js
+# > 百度网盘_设置页游戏@ddgksf2013
+^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?method=gamecenter url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js
+# > 百度网盘_热搜list@ddgksf2013
+^https:\/\/pan\.baidu\.com\/feed\/hotlist url reject-200
+# > 百度网盘_搜索填词@ddgksf2013
+^https:\/\/pan\.baidu\.com\/queryintent\/queryhint url reject-200
+# > 百度网盘_金币乐园@ddgksf2013
+^https:\/\/pan\.baidu\.com\/coins\/center\/notice url reject-200
+# > 百度网盘_首页信息流@ddgksf2013
+^https:\/\/pan\.baidu\.com\/feed\/cardinfos url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js
 
 ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js
 
@@ -50,4 +68,4 @@ https://miniapp.guniuniu.com/api/app/user$ url script-response-body https://raw.
 
   
 [mitm]
-hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, *.wtzw.com, xluser-ssl.xunlei.com, accounts.felo.me, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com
+hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, afd.baidu.com, *.wtzw.com, xluser-ssl.xunlei.com, accounts.felo.me, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com
