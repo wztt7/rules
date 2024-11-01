@@ -1,19 +1,51 @@
 # https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html
 
-10、符合reality协议要求与CF域名要求的公共大厂域名：
+10、符合reality协议要求与CF域名要求的公共大厂域名：ip.sb，time.is，wto.org
 
+cdn.anycast.eu.org
+comicabc.com
+dnschecker.org
+gamer.com.tw
+icook.hk
+icook.tw
 ip.sb
-
+japan.com
+malaysia.com
+pixiv.net
+russia.com
+shopify.com
+silkbook.com
+singapore.com
+steamdb.info
+tasteatlas.com
 time.is
+toy-people.com
+www.4chan.org
+www.csgo.com
+www.digitalocean.com
+www.glassdoor.com
+www.gov.ua
+www.hugedomains.com
+www.ipget.net
+www.shopify.com
+www.udacity.com
+www.udemy.com
+www.visa.co.jp
+www.visa.com
+www.visa.com.hk
+www.visa.com.sg
+www.visa.com.tw
+www.visakorea.com
+www.whatismyip.com
+www.whoer.net
+xn--b6gac.eu.org
 
-wto.org
-
-
+################################################################################
 标准端口80系：80，8080，8880，2052，2082，2086，2095
 
 标准端口443系，需开tls：443，8443，2053，2083，2087，2096
 
-推荐好记的懒人专属CF官方IP（IP落地地区都为美国，支持13个标准端口），不定时更新分享
+推荐好记的懒人专属CF官方IP（IP落地地区都为美国，支持13个标准端口）
 
 
 104.16.0.0
