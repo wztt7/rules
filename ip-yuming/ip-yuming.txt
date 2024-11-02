@@ -40,6 +40,18 @@ www.whatismyip.com
 www.whoer.net
 xn--b6gac.eu.org
 
+
+官方（tc链接）
+theo.ns.cloudflare.com
+thaddeus.ns.cloudflare.com
+surina.ns.cloudflare.com
+sullivan.ns.cloudflare.com
+sage.ns.cloudflare.com
+romina.ns.cloudflare.com
+pranab.ns.cloudflare.com
+poppy.ns.cloudflare.com
+melina.ns.cloudflare.com
+
 ################################################################################
 标准端口80系：80，8080，8880，2052，2082，2086，2095
 
