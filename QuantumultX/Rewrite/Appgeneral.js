@@ -71,6 +71,20 @@ https://miniapp.guniuniu.com/api/app/user$ url script-response-body https://raw.
 # 养基宝
 ^https?:\/\/.*yangjibao\.com\/(wxapi\/)?account url script-response-body https://github.com/ddgksf2013/MoYu/raw/master/YangJiBaoProCrack.js
 
+# https://raw.githubusercontent.com/WeiGiegie/666/main/mgsp.js
+# > 咪咕视频Vip会员
+^https?:\/\/(play|dis).*miguvideo.com\/(play|dis)(url|play)\/.*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/mgsp.js
+^https?:\/\/play.miguvideo.com\/playurl\/v1\/play\/playurl\?2Kvivid=true?.*=true$ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/mgspck.js
+# > 开屏广告
+^https://.*miguvideo\.com/request/sdk url reject-200
+^https://common-sc\.miguvideo\.com/task/v7/task-list/cmvideo/visitor url reject-200
+
+# https://raw.githubusercontent.com/WeiGiegie/666/main/mgtv.js
+# > 芒果TV,Vip+会员画质+去广告,页面优化
+^https?:\/\/.*mgtv.com.*(GetUserInfo|module\/list\?_support|app\/bdboot|pullReleaseInfo|floor\/detail|video\/source|entry\?_support).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/mgtv.js
+^https?:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\? url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/mgtk.js
+^https?://mobile.da.mgtv.com\/m\/page url reject
+
   
 [mitm]
-hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, afd.baidu.com, *.wtzw.com, xluser-ssl.xunlei.com, accounts.felo.me, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com, *.yangjibao.com
+hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, afd.baidu.com, *.wtzw.com, xluser-ssl.xunlei.com, accounts.felo.me, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com, *.yangjibao.com, *.miguvideo.com,  *mgtv.com
