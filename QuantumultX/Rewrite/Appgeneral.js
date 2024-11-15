@@ -85,6 +85,5 @@ https://miniapp.guniuniu.com/api/app/user$ url script-response-body https://raw.
 ^https?:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\? url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/mgtk.js
 ^https?://mobile.da.mgtv.com\/m\/page url reject
 
-  
 [mitm]
-hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, afd.baidu.com, *.wtzw.com, xluser-ssl.xunlei.com, accounts.felo.me, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com, *.yangjibao.com, *.miguvideo.com,  *mgtv.com
+hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, afd.baidu.com, *.wtzw.com, xluser-ssl.xunlei.com, accounts.felo.me, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com, *.yangjibao.com, *.miguvideo.com,  *mgtv.com, pad.api.mgtv.com, pcc.api.mgtv.com
