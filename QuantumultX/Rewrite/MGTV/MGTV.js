@@ -12,8 +12,7 @@
 ^https?:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\? url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/mgtk.js
 ^https?://mobile.da.mgtv.com\/m\/page url reject
 # pad
-^https?:\/\/pad\.api\.mgtv\.com\/v1\/video\/getSource\? url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/mgtk.js
-
+^https?:\/\/pad\.api\.mgtv\.com\/v1\/video\/source\? url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/mgtk.js
 [mitm] 
 hostname = *.mgtv.com, pad.api.mgtv.com
 *
