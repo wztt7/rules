@@ -11,11 +11,11 @@
 ^https?:\/\/.*mgtv.com.*(GetUserInfo|module\/list\?_support|app\/bdboot|pullReleaseInfo|floor\/detail|video\/source|entry\?_support).*$ url script-response-body https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/MGTV.js
 ^https?:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\? url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/mgtk.js
 ^https?://mobile.da.mgtv.com\/m\/page url reject
-https://pcc.api.mgtv.com/video/getSource url script-request-header https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/MGTV.js
-https://pad.api.mgtv.com/v8/video/getSource url script-request-header https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/MGTV.js
+# pad
+^https?:\/\/pad\.api\.mgtv\.com\/v8\/video\/getSource\? url script-request-header https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/MGTV.js
 
 [mitm] 
-hostname = *.mgtv.com, pad.api.mgtv.com, pcc.api.mgtv.com
+hostname = *.mgtv.com, pad.api.mgtv.com
 *
 *
 
