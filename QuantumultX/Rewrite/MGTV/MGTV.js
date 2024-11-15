@@ -1,14 +1,12 @@
 [rewrite_local]
-^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv1.js
-https://mobile-stream.api.mgtv.com/v1/video/source? url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
-https://nuc.api.mgtv.com/GetUserInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv.js
-https://mobile-stream.api.mgtv.com/v1/video/source url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv.js
+^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/mgtv1.js
+https://mobile-stream.api.mgtv.com/v1/video/source? url script-request-header https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/MGTV.js
+https://nuc.api.mgtv.com/GetUserInfo url script-response-body https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/mgtv.js
+https://mobile-stream.api.mgtv.com/v1/video/source url script-response-body https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/mgtv.js
 #港区
-^https://mobile.api.mgtv.com/v8/video/getSource url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
-#播放页开通提示移除
-http://vip.bz.mgtv.com/client/dynamic_entry url reject
-https://pcc.api.mgtv.com/video/getSource url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
-https://pad.api.mgtv.com/v8/video/getSource url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
+^https://mobile.api.mgtv.com/v8/video/getSource url script-request-header https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/MGTV.js
+https://pcc.api.mgtv.com/video/getSource url script-request-header https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/MGTV.js
+https://pad.api.mgtv.com/v8/video/getSource url script-request-header https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/MGTV.js
 [mitm] 
 hostname = *.mgtv.com, pad.api.mgtv.com, pcc.api.mgtv.com
 */
