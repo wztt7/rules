@@ -1,3 +1,6 @@
+
+# tk来自https://raw.githubusercontent.com/WeiGiegie/666/main/mgtk.js
+# https://raw.githubusercontent.com/WeiGiegie/666/main/mgtv.js
 [rewrite_local]
 ^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/mgtv1.js
 https://mobile-stream.api.mgtv.com/v1/video/source? url script-request-header https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/QuantumultX/Rewrite/MGTV/MGTV.js
