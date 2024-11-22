@@ -5,14 +5,11 @@
 | :-----| :---- |
 |QuantumultX|  [self.conf](https://raw.githubusercontent.com/wztt7/rules/main/QuantumultX/self.conf) |
 |Shadowrocket|  [Shadowrocket.conf](https://raw.githubusercontent.com/wztt7/rules/main/Shadowrocket/Shadowrocket.conf) |
+|Loon|  [Loon.conf](https://raw.githubusercontent.com/wztt7/rules/refs/heads/main/Loon/Conf/Loon.conf) |
 
-## Shadowrocket模块
-* 模块转换： [Script Hub](https://scripthub.vercel.app/)
 
-| 功能 | Shadowrocket |
-| :-----| :---- |
-|ScriptHub脚本转换|  [script-hub.rocket.module](https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.rocket.module) |
-|Spotify|  [Spotify.conf](https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.module) |
+* 重写规则转换： [Script Hub](https://scripthub.vercel.app/)
+* 订阅转换： [subchange](https://subchange.cckj.us.kg/)
 
 
 ## 圈x重写模块
